@@ -84,10 +84,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 32px;
+        padding-top: 32px;
         background-color: #fcfdfd;
         padding-left: 64px; 
         padding-right: 64px;
+        padding-bottom: 64px;
         justify-content: space-around;
     }
     .info-image {
@@ -125,4 +126,28 @@
         margin-bottom: 6px;
         text-align: center; 
           
+    }
+    .quote-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 64px;
+        background-color: #e5e7eb;
+        padding-left: 256px;
+        padding-right: 256px;
+    }
+    .quote-text {
+        font-size: 36px;
+        color: #1f2937;
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 0px;
+    }
+    .quote-author {
+        font-size: 18px;
+        color: #1f2937;
+        font-weight: 700;
+        align-self: flex-end;
     }
